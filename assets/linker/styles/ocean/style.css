@@ -214,8 +214,9 @@ a:before, a:after {
     max-height: 500px;
     display: table;
     background-position: center center;
-    background-attachment: fixed;
+    background-attachment: fixed; 
     z-index: 999;
+
 
     -webkit-background-size: 100%;
        -moz-background-size: 100%;

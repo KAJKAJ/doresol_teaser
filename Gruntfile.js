@@ -29,7 +29,11 @@ module.exports = function (grunt) {
    */
 
   var cssFilesToInject = [
-    'linker/**/*.css'
+    'linker/styles/ocean/bootstrap.css',
+    'linker/styles/ocean/style.css',
+    'linker/styles/ocean/icomoon.css',
+    'linker/styles/ocean/animate.css'
+    // 'linker/**/*.css'
   ];
 
 
@@ -59,7 +63,13 @@ module.exports = function (grunt) {
     // *->    put other dependencies here   <-*
 
     // All of the rest of your app scripts imported here
-    'linker/**/*.js'
+    'linker/js/ocean/jquery.min.js',
+    'linker/js/ocean/modernizr.custom.js',
+    'linker/js/ocean/bootstrap.min.js',
+    'linker/js/ocean/retina.js',
+    'linker/js/ocean/jquery.easing.1.3.js',
+    'linker/js/ocean/smoothscroll.js',
+    // 'linker/**/*.js'
   ];
 
 
