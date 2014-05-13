@@ -29,6 +29,7 @@
 /*------------------------------------*\
     $BASE STYLES
 \*------------------------------------*/
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 
 html,
 button,
@@ -132,6 +133,11 @@ small {
 
 em {
     font-weight: 300;
+}
+
+/*한글*/
+.kor{
+    font-family:'Nanum Gothic', sans-serif;
 }
 
 /*------------------------------------*\
