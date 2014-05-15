@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Ocean - Responsive One Page Theme</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        
+        <link rel="shortcut icon" href=""> <!-- Put path to your favicon here -->
+      
+        <!-- Google web fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'> <!-- Raleway -->
+        <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'> <!-- Lato; could be changed to Open Sans -->
+        
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+
+<!-- <body class="animated fadeIn" data-spy="scroll" data-offset="0" data-target="#navbar-main"> -->
+<body class="animated" data-spy="scroll" data-offset="0" data-target="#navbar-main">
+    <!-- Fixed navigation starts  -->
+    <div id="navbar-main">
+        <div class="navbar  navbar-inverse  navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon  icon-menu"></span>
+                    </button>
+                    <a class="navbar-brand  smoothScroll" href="#home"><span class="logo">Doresol</span></a> <!-- Branding -->
+                </div>
+                <div class="navbar-collapse  collapse">
+                    <ul class="nav  navbar-nav  navbar-right">
+                        <li><a href="#home" class="smoothScroll">Home</a></li>
+                        <li><a href="#about" class="smoothScroll">About</a></li>
+                        <li><a href="#features" class="smoothScroll">Features</a></li>
+                        <li><a href="#team" class="smoothScroll">Team</a></li>
+                        <li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
+                        <li><a href="#contact" class="smoothScroll">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div><!-- navigation ends -->
+    
+    
+    <!-- Header starts here -->
+    <div class="header-wrap  center" id="home" name="home">
+        <header class="clearfix">
+            <h1 class="animated  fadeInUp">Doresol</h1>
+            <p class="animated  fadeInUp kor">
+                도래솔..              
+            </p>
+        </header>	
+        <div class="subscription-form span12">
+            <form class="form-inline" action="user" method="post">
+                <input type="text" name="email" placeholder="Enter your email...">
+                <button type="submit" class="btn">Subscribe</button>
+            </form>
+            <div class="success-message" style="display: none;"></div>
+            <div class="error-message" style="display: none;"></div>
+        </div>   
+    </div><!-- header ends -->
+    
+    
+    <!-- Services/Features section starts here -->
+    <div class="services-wrap  center">
+        <div class="row">
+            
+            <div class="col-lg-3  callout">
+                <span class="icon  icon-screen"></span>
+                <h2>Web Design.</h2> <!-- Title -->
+                <p>That tall drink of water with the silver spoon up his ass. you measure yourself by the people who measure themselves by you.</p> <!-- Description -->
+            </div><!-- col-lg-3 -->
+					
+            <div class="col-lg-3  callout">
+                <span class="icon  icon-quill"></span>
+                <h2>Branding.</h2>
+                <p>Well, what is it today? more spelunking? mister wayne, if you don't want to tell me exactly what you're doing, when i'm asked.</p>
+            </div><!-- col-lg-3 -->	
+				
+            <div class="col-lg-3  callout">
+                <span class="icon  icon-cogs"></span>
+                <h2>Development.</h2>
+                <p>Your entrance was good, his was better. we got no food we got no money and our pets heads are falling off!</p>
+            </div><!-- col-lg-3 -->	
+                
+            <div class="col-lg-3  callout">
+                <span class="icon  icon-droplet"></span>
+                <h2>Illustration.</h2>
+                <p>Brain freeze. i just heard about evans new position,good luck to you evan backstabber, bastard, i mean baxter.</p>
+            </div><!-- col-lg-3 -->	
+            
+        </div>
+    </div><!-- services/features section ends -->
+    
+    
+    <!-- #1 Divider with few words/quote -->
+    <section class="divider  divider-bg-1  center">
+        <div class="container">
+            <h1>Good design is innovative.</h1>
+            <hr>
+            <p>The possibilities for innovation are not, by any means, exhausted.</p>
+        </div>
+    </section><!-- #1 divider ends -->
+        
+    
+    <!-- About section starts here -->
+    <div class="container" id="about" name="about">
+        <div class="row">
+            <br>
+            <h1 class="center">WHO WE ARE</h1>
+            <hr>
+            <br>
+
+            <div class="col-lg-4">
+                <p>We are a fairly small, flexible design studio that designs for print and web. We work flexibly with clients to fulfil their design needs. Whether you need to create a brand from scratch, including marketing materials and a beautiful and functional website or whether you are looking for a design refresh we are confident you will be pleased with the results.</p>
+            </div><!-- col-lg-4 -->
+            
+            <div class="col-lg-4">
+                <p>We are a fairly small, flexible design studio that designs for print and web. Whether you need to create a brand from scratch, including marketing materials and a beautiful and functional website or whether you are looking for a design refresh we are confident you will be pleased with the results. We work flexibly with clients to fulfil their design needs.</p>
+            </div><!-- col-lg-4 -->
+
+            <div class="col-lg-4">
+                <p>We work flexibly with clients to fulfil their design needs. Whether you need to create a brand from scratch, including marketing materials and a beautiful and functional website or whether you are looking for a design refresh we are confident you will be pleased with the results. We work flexibly with clients to fulfil their design needs.</p>
+            </div><!-- col-lg-4 -->
+            
+        </div>
+        <br>
+    </div><!-- about section ends -->
+		
+    
+    <!-- #2 Divider with few words/quote -->
+    <section class="divider  divider-bg-2  center">
+        <div class="container">
+            <h1>Good design is aesthetic.</h1>
+            <hr>
+            <p>Only well-executed objects can be beautiful.</p>
+        </div>
+    </section><!-- #2 divider ends -->
+		
+    
+    <!-- #1 Feature section starts here -->
+    <div class="feature-wrap  left" id="features" name="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6  center">
+                    <img class="img-responsive" src="images/device.png">
+                </div>
+                <div class="col-lg-6">
+                    <h2>Mobile first design.</h2> <!-- Title -->
+                    <p>Alrighty then your entrance was good, his was better. your entrance was good, his was better. kinda hot in these rhinos.</p> <!-- Description -->
+                    <p><a class="btn  btn-primary">Learn more</a></p>
+                </div>					
+            </div>
+        </div>
+        <br>
+        <br>
+    </div><!-- #1 feature section ends -->
+    
+    <hr> <!-- little grey line to separate -->
+    
+    <!-- #2 Feature section starts here -->
+    <div class="feature-wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Fast and scalable.</h2>
+                    <p>Kinda hot in these rhinos. look ma i'm road kill hey, maybe i will give you a call sometime. your number still 911? alrighty then brain freeze.</p>
+                    <p><a class="btn  btn-primary">Learn more</a></p>
+                </div>		
+                <div class="col-lg-6  center">
+                    <img class="img-responsive" src="images/device-2.png">
+                </div>				
+            </div>
+        </div>
+        <br>
+        <br>
+    </div><!-- #2 feature section ends -->
+    
+    <hr> <!-- little grey line to separate -->
+    
+    <!-- #3 Feature section starts here -->
+    <div class="feature-wrap  left" id="features" name="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6  center">
+                    <img class="img-responsive" src="images/device.png">
+                </div>
+                <div class="col-lg-6">
+                    <h2>Stable and secure.</h2> <!-- Title -->
+                    <p>Here she comes to wreck the day. kinda hot in these rhinos. alrighty then your entrance was good, his was better.</p> <!-- Description -->
+                    <p><a class="btn  btn-primary">Learn more</a></p>
+                </div>					
+            </div>
+        </div>
+        <br>
+        <br>
+    </div><!-- #3 feature section ends -->
+  		
+    
+    <!-- #3 Divider with few words/quote -->
+    <section class="divider  divider-bg-3  center">
+        <div class="container">
+            <h1>Good design is honest.</h1>
+            <hr>
+            <p>It does not make a product more innovative, powerful or valuable than it really is.</p>
+        </div>
+    </section><!-- #3 divider ends -->
+
+    
+    <!-- Team/staff section starts here -->
+    <div class="container" id="team" name="team">
+        <br>
+        <div class="row  center">
+            <br>
+            <h1 class="center">MEET THE TEAM</h1>
+            <hr>
+            <br>
+            <br>
+            
+            <!-- Single team member -->
+            <div class="col-lg-3  center">
+                <img class="img  img-circle  team-member" src="http://placesheen.com/155/155" height="155px" width="155px" alt="">
+                <br>
+                <h4><b>Harone Desertblast</b></h4> <!-- Name -->
+                <a href="#">@twitter</a>
+                <!-- <a href="#" class="icon icon-twitter"></a> Uncomment to use icons
+                <a href="#" class="icon icon-facebook"></a> -->
+                <p>Harone is our Creative Director, digital designer, web designer and front-end developer.</p> <!-- Description -->
+            </div><!-- single team member ends -->
+
+            <div class="col-lg-3  center">
+                <img class="img  img-circle  team-member" src="http://placesheen.com/155/155" height="155px" width="155px" alt="">
+                <br>
+                <h4><b>Alrakis Wacoltn</b></h4>
+                <a href="#">@twitter</a>
+                <!-- <a href="#" class="icon icon-twitter"></a> Uncomment to use icons
+                <a href="#" class="icon icon-facebook"></a> -->
+                <p>Alrakis is our Art Director and specialises in graphic and print design.</p>
+            </div>
+
+            <div class="col-lg-3  center">
+                <img class="img  img-circle  team-member" src="http://placesheen.com/155/155" height="155px" width="155px" alt="">
+                <br>
+                <h4><b>Ghesty Starblast</b></h4>
+                <a href="#">@twitter</a>
+                <!-- <a href="#" class="icon icon-twitter"></a> Uncomment to use icons
+                <a href="#" class="icon icon-facebook"></a> -->
+                <p>Being a project manager is a hard task, but Ghesty loves what she does.</p>
+            </div>
+
+            <div class="col-lg-3  center">
+                <img class="img  img-circle  team-member" src="http://placesheen.com/155/155" height="155px" width="155px" alt="">
+                <br>
+                <h4><b>Rig Wilisth</b></h4>
+                <a href="#">@twitter</a>
+                <!-- <a href="#" class="icon icon-twitter"></a> Uncomment to use icons
+                <a href="#" class="icon icon-facebook"></a> -->
+                <p>Web designer with knowledge of HTML5 and CSS3.</p>
+            </div>
+
+        </div>
+        <br>
+    </div><!-- team/staff section ends -->
+
+    
+    <!-- #4 Divider with few words/quote -->
+    <section class="divider  divider-bg-4  center">
+        <div class="container">
+            <h1>Good design is long-lasting.</h1>
+            <hr>
+            <p>It avoids being fashionable and therefore never appears antiquated.</p>
+        </div>
+    </section><!-- #4 divider ends -->  
+    
+    
+    <!-- Portfolio section starts here -->
+    <div class="container" id="portfolio" name="portfolio">
+        <br>
+        <div class="row">
+            <br>
+            <h1 class="center">WHAT WE'VE BEEN UP TO</h1>
+            <hr>
+            <br>
+            <br>
+        </div>
+        <div class="container">
+            <div class="row">	
+                
+                
+                <!-- #1 portfolio item -->
+                <div class="col-md-6 ">
+                    <div class="grid  mask">
+                        <figure>
+                            <img class="img-responsive" src="images/portfolio/portfolio-1.jpg" alt="">
+                            <figcaption>
+                                <h5>PROJECT #1</h5>
+                                <em>ui/ux design, development</em>
+                                <a data-toggle="modal" href="#myModal">DETAILS</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div><!-- #1 portfolio item ends -->
+                
+                <!-- Modal box for #1 portfolio item -->
+                <div class="modal  fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h3 class="modal-title">Project Title #1</h3>
+                            </div>
+                            <div class="modal-body">
+                                <p><img class="img-responsive" src="images/portfolio/portfolio-1.jpg" alt=""></p>
+                                <p>Your entrance was good, his was better. good morning, oh in case i don't see you, good afternoon, good evening and goodnight. excuse me, i'd like to ass you a few questions. we got no food we got no money and our pets heads are falling off! haaaaaaarry. we're going for a ride on the information super highway. brain freeze. it's because i'm green isn't it! we got no food we got no money and our pets heads are falling off! haaaaaaarry. it's because i'm green isn't it! look at that, it's exactly three seconds before i honk your nose and pull your underwear over your head. we got no food we got no money and our pets heads are falling off! haaaaaaarry.</p>
+                                <p><b><a href="http://graphicburger.com/real-estate-booking-ui-kit/" class="btn btn-success">View it live</a></b></p>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- #1 modal ends -->
+
+                
+                <!-- #2 portfolio item -->
+                <div class="col-md-6">
+                    <div class="grid  mask">
+                        <figure>
+                            <img class="img-responsive" src="images/portfolio/portfolio-2-thumb.jpg" alt="">
+                            <figcaption>
+                                <h5>PROJECT #2</h5>
+                                <em>ui/ux design</em>
+                                <a data-toggle="modal" href="#myModal2">DETAILS</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div><!-- #2 portfolio item ends -->
+
+            <!-- Modal box for #2 portfolio item -->
+            <div class="modal  fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h3 class="modal-title">Project Title #2</h3>
+                        </div>
+                        <div class="modal-body">
+                            <p><img class="img-responsive" src="images/portfolio/portfolio-2.jpg" alt=""></p>
+                            <p>It's because i'm green isn't it! alrighty then excuse me, i'd like to ass you a few questions. hey, maybe i will give you a call sometime. your number still 911? hey, maybe i will give you a call sometime. your number still 911? it's because i'm green isn't it! kinda hot in these rhinos.</p>
+                            <p><b><a href="http://graphicburger.com/prasastienom-psd-admin-dashboard/" class="btn btn-success">View it live</a></b></p>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- #2 modal ends -->
+
+
+            <br>
+
+            
+            <!-- #3 portfolio item -->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="grid  mask">
+                        <figure>
+                            <img class="img-responsive" src="images/portfolio/portfolio-3.jpg" alt="">
+                            <figcaption>
+                                <h5>PROJECT #3</h5>
+                                <em>branding, identity</em>
+                                <a data-toggle="modal" href="#myModal3">DETAILS</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div><!-- #3 portfolio item ends -->
+                
+                <!-- Modal box for #3 portfolio item -->
+                <div class="modal  fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h3 class="modal-title">Project Title #3</h3>
+                            </div>
+                            <div class="modal-body">
+                                <p><img class="img-responsive" src="images/portfolio/portfolio-3.jpg" alt=""></p>
+                                <p>It's because i'm green isn't it! alrighty then excuse me, i'd like to ass you a few questions. hey, maybe i will give you a call sometime. your number still 911? hey, maybe i will give you a call sometime. your number still 911? it's because i'm green isn't it! kinda hot in these rhinos.</p>
+                                <p><b><a href="http://graphicburger.com/branding-identity-mock-up-vol-2/" class="btn btn-success">View it live</a></b></p>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- #3 modal ends -->
+
+                
+                <!-- #4 portfolio item -->	
+                <div class="col-md-6">
+                    <div class="grid  mask">
+                        <figure>
+                            <img class="img-responsive" src="images/portfolio/portfolio-4.jpg" alt="">
+                            <figcaption>
+                                <h5>PROJECT #4</h5>
+                                <em>design, full development</em>
+                                <a data-toggle="modal" href="#myModal4">DETAILS</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div><!-- #4 portfolio item ends -->
+
+                <!-- Modal box for #4 portfolio item -->
+                <div class="modal  fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h3 class="modal-title">Project Title #4</h3>
+                            </div>
+                            <div class="modal-body">
+                                <p><img class="img-responsive" src="images/portfolio/portfolio-4.jpg" alt=""></p>
+                                <p>It's because i'm green isn't it! alrighty then excuse me, i'd like to ass you a few questions. hey, maybe i will give you a call sometime. your number still 911? hey, maybe i will give you a call sometime. your number still 911? it's because i'm green isn't it! kinda hot in these rhinos.</p>
+                                <p><b><a href="http://graphicburger.com/identity-branding-mock-up-vol-3/" class="btn btn-success">View it live</a></b></p>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- #4 modal ends -->
+                
+
+            </div>
+            <br>
+            <br>
+        </div>
+    </div><!-- portfolio section ends -->
+
+		
+    <!-- Footer section starts here -->
+    <section class="divider  divider-bg-5  center" id="contact" name="contact">
+        <div class="container">
+            <h1>CRAFTED WITH LOVE IN LITHUANIA.</h1>
+            <hr>
+            <p>Company Address 654,</p>
+            <p>+987 654 321</p>
+            <p><a class="icon  icon-google-plus" href="#"></a> <a class="icon  icon-twitter" href="#"></a> <a class="icon  icon-facebook" href="#"></a> <a class="icon  icon-flickr" href="#"></a></p>
+        </div>
+    </section><!-- footer section ends -->
+
+    
+    <!-- Copyright section starts here -->
+    <div class="copyright  center">
+        <div class="container">
+            <h5>&copy; Copyright 2014 <a href="#">Company</a></h5>
+        </div>
+    </div><!-- copyright section ends -->
+   
+    </body>
+</html>
