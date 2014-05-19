@@ -32,7 +32,9 @@ module.exports = function (grunt) {
     'linker/styles/ocean/bootstrap.css',
     'linker/styles/ocean/style.css',
     'linker/styles/ocean/icomoon.css',
-    'linker/styles/ocean/animate.css'
+    'linker/styles/ocean/animate.css',
+    //'linker/styles/bigvideo/style.css',
+    //'linker/styles/bigvideo/bigvideo.css',
     // 'linker/**/*.css'
   ];
 
@@ -69,9 +71,11 @@ module.exports = function (grunt) {
     'linker/js/ocean/retina.js',
     'linker/js/ocean/jquery.easing.1.3.js',
     'linker/js/ocean/smoothscroll.js',
+    // 'linker/js/bigvideo/bigvideo.js',
+    // 'linker/js/bigvideo/jquery-ui.js',
+    // 'linker/js/bigvideo/jquery-ui.min.js',
     // 'linker/**/*.js'
   ];
-
 
   /**
    * Client-side HTML templates are injected using the sources below
