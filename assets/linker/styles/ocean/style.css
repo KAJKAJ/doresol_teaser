@@ -550,23 +550,23 @@ a:before, a:after {
         width: 100%;
     }    
     #carousel_1 {
-        background:url(/images/father/31.jpg) center top; 
+        background:url(/images/father/10.png) center top; 
         background-size:cover;
     }
     #carousel_2 {
-        background:url(/images/father/1.jpg) center top; 
+        background:url(/images/father/31.png) center top; 
         background-size:cover;
     }
     #carousel_3 {
-        background:url(/images/father/26.jpg) center top; 
+        background:url(/images/father/26.png) center top; 
         background-size:cover;
     }
     #carousel_4 {
-        background:url(/images/father/10.jpg) center top; 
+        background:url(/images/father/24.png) center top; 
         background-size:cover;
     }
     #carousel_5 {
-        background:url(/images/father/12.jpg) center top; 
+        background:url(/images/father/18.png) center top; 
         background-size:cover;
     }
 }
@@ -576,23 +576,23 @@ a:before, a:after {
         width: 100%;
     }
     #carousel_1 {
-        background:url(/images/father/31.png) center top; 
+        background:url(/images/father/short_10.png) center top; 
         background-size:cover;
     }
     #carousel_2 {
-        background:url(/images/father/1.png) center top; 
+        background:url(/images/father/short_31.png) center top; 
         background-size:cover;
     }
     #carousel_3 {
-        background:url(/images/father/26.png) center top; 
+        background:url(/images/father/short_26.png) center top; 
         background-size:cover;
     }
     #carousel_4 {
-        background:url(/images/father/10.png) center top; 
+        background:url(/images/father/short_24.png) center top; 
         background-size:cover;
     }
     #carousel_5 {
-        background:url(/images/father/12.png) center top; 
+        background:url(/images/father/short_18.png) center top; 
         background-size:cover;
     }
 }
