@@ -539,14 +539,62 @@ a:before, a:after {
 
 
 /*carousel*/
-.slider-size {
-    height: 900px; 
-    width: 100%;
-}
 .carousel-text{
     position:relative;
     top:-250px;
     height:0px;
+}
+@media (min-width: 769px) {
+    .slider-size {
+        height: 900px; 
+        width: 100%;
+    }    
+    #carousel_1 {
+        background:url(/images/father/31.jpg) center top; 
+        background-size:cover;
+    }
+    #carousel_2 {
+        background:url(/images/father/1.jpg) center top; 
+        background-size:cover;
+    }
+    #carousel_3 {
+        background:url(/images/father/26.jpg) center top; 
+        background-size:cover;
+    }
+    #carousel_4 {
+        background:url(/images/father/10.jpg) center top; 
+        background-size:cover;
+    }
+    #carousel_5 {
+        background:url(/images/father/12.jpg) center top; 
+        background-size:cover;
+    }
+}
+@media (max-width: 768px) {
+    .slider-size {
+        height: 600px; 
+        width: 100%;
+    }
+    #carousel_1 {
+        background:url(/images/father/31.png) center top; 
+        background-size:cover;
+    }
+    #carousel_2 {
+        background:url(/images/father/1.png) center top; 
+        background-size:cover;
+    }
+    #carousel_3 {
+        background:url(/images/father/26.png) center top; 
+        background-size:cover;
+    }
+    #carousel_4 {
+        background:url(/images/father/10.png) center top; 
+        background-size:cover;
+    }
+    #carousel_5 {
+        background:url(/images/father/12.png) center top; 
+        background-size:cover;
+    }
 }
 .white {
     color:white;
