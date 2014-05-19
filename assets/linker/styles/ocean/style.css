@@ -536,3 +536,10 @@ a:before, a:after {
 		line-height: 34px;
 	}
 }
+
+
+/*carousel*/
+.slider-size {
+    height: 400px; 
+    width: 100%;
+}
