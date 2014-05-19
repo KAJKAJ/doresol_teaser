@@ -37,7 +37,7 @@ npm-debug.log
 .netbeans
 nbproject
 .idea
-
+.DS_Store
 
 ########################
 # local config
