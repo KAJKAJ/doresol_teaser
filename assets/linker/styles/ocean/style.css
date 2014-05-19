@@ -540,6 +540,14 @@ a:before, a:after {
 
 /*carousel*/
 .slider-size {
-    height: 400px; 
+    height: 500px; 
     width: 100%;
+}
+.carousel-text{
+    position:relative;
+    top:-400px;
+    height:0px;
+}
+.carousel-text > div > h1, p{
+    color:white;
 }
