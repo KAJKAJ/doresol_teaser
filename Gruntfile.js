@@ -71,6 +71,7 @@ module.exports = function (grunt) {
     'linker/js/ocean/retina.js',
     'linker/js/ocean/jquery.easing.1.3.js',
     'linker/js/ocean/smoothscroll.js',
+    'linker/js/init.js'
     // 'linker/js/bigvideo/bigvideo.js',
     // 'linker/js/bigvideo/jquery-ui.js',
     // 'linker/js/bigvideo/jquery-ui.min.js',
