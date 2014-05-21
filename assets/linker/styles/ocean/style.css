@@ -629,7 +629,7 @@ a:before, a:after {
    position: fixed;
    top:0px;
    width:100%;
-   opacity: 0.8;
+   opacity: 1;
    z-index: 1050;
    text-align:center;
 }
