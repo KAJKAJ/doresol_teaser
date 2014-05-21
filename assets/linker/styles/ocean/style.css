@@ -621,3 +621,15 @@ a:before, a:after {
 .left{
 	text-align:left;
 }
+
+
+/* noti */
+.message {
+   overflow: hidden;
+   position: fixed;
+   top:0px;
+   width:100%;
+   opacity: 0.8;
+   z-index: 1050;
+   text-align:center;
+}

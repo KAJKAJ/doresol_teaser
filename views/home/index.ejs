@@ -24,6 +24,24 @@
 
 <!-- <body class="animated fadeIn" data-spy="scroll" data-offset="0" data-target="#navbar-main"> -->
 <body class="animated" data-spy="scroll" data-offset="0" data-target="#navbar-main">
+    <!-- noti -->
+    <% 
+        var result =  req.flash('result'); 
+        if(result.length > 0){
+            if(result == 'success'){ %>
+                <div class="alert alert-success alert-dismissable message">
+                  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                  이메일 등록이 성공했습니다.
+                </div>
+         <%   }else{ %> 
+                <div class="alert alert-danger alert-dismissable message">
+                  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                  이메일 등록이 실패했습니다.
+                </div>
+         <%   }
+        }
+    %>
+
     <!-- Fixed navigation starts  -->
     <div id="navbar-main">
         <div class="navbar  navbar-inverse  navbar-fixed-top">
@@ -45,7 +63,7 @@
             </div>
         </div>
     </div><!-- navigation ends -->
-    
+
     <!-- Header starts here -->
     <div class="header-wrap  center" id="home" name="home">
         <header class="clearfix">
@@ -137,6 +155,7 @@
             </div>
         </div>
     </section><!-- #4 divider ends --> 
+
 
    <!-- Services/Features section starts here -->
     <div id="features" class="services-wrap  center">

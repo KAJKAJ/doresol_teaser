@@ -1,8 +1,8 @@
 /**
- * UserController
+ * MainController
  *
  * @module      :: Controller
- * @description :: A set of functions called `actions`.
+ * @description	:: A set of functions called `actions`.
  *
  *                 Actions contain code telling Sails how to respond to a certain type of request.
  *                 (i.e. do stuff, then send some JSON, show an HTML page, or redirect to another URL)
@@ -16,25 +16,15 @@
  */
 
 module.exports = {
+    
+  
   /**
    * Action blueprints:
-   *    `/user/create`
+   *    `/main/index`
+   *    `/main`
    */
-   create: function (req, res) {
-    var email = req.param('email');
-    
-    User.create({
-      emailAddress: email
-    }).done(function(err, user) {
-      // Error handling
-      if (err) {
-        req.flash('result', 'fail');
-      }else {
-        req.flash('result', 'success');
-      }
-
-      return res.redirect('/');
-    });
+   index: function (req, res) {
+    res.view('home/index');
   },
 
 
@@ -42,7 +32,7 @@ module.exports = {
 
   /**
    * Overrides for the settings in `config/controllers.js`
-   * (specific to UserController)
+   * (specific to MainController)
    */
   _config: {}
 
