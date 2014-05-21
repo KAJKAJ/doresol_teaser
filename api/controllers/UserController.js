@@ -28,7 +28,7 @@ module.exports = {
     }).done(function(err, user) {
       // Error handling
       if (err) {
-        req.flash('result', 'fail: ' + err);
+        req.flash('result', 'fail');
       }else {
         req.flash('result', 'success');
       }
