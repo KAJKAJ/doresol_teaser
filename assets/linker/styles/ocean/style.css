@@ -550,8 +550,14 @@ a:before, a:after {
     height:0px;
 }
 @media (min-width: 769px) {
+    .big{
+        display:block;
+    }
+    .small{
+        display:none;
+    }
     .slider-size {
-        height: 900px; 
+        height: 800px; 
         width: 100%;
     }    
     #carousel_1 {
@@ -576,8 +582,14 @@ a:before, a:after {
     }
 }
 @media (max-width: 768px) {
+    .big{
+        display:none;
+    }
+    .small{
+        display:block;
+    }
     .slider-size {
-        height: 600px; 
+        height: 500px; 
         width: 100%;
     }
     #carousel_1 {
