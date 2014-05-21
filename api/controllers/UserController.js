@@ -33,7 +33,7 @@ module.exports = {
         req.flash('result', 'success');
       }
 
-      return res.redirect('/');
+      return res.redirect('/#sign');
     });
   },
 
