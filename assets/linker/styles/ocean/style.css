@@ -544,9 +544,9 @@ a:before, a:after {
 
 /*carousel*/
 .carousel-text{
-	  font-family: 'Raleway', sans-serif;
+	font-family: 'Raleway', sans-serif;
     position:relative;
-    top:-250px;
+    top:-270px;
     height:0px;
 }
 @media (min-width: 769px) {
