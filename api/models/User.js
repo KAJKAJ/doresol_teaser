@@ -7,19 +7,20 @@
  */
 
 function send_mail_through_mandrill(recipient_email) {
+	var currentTime = new Date();
 	var mandrill = require('mandrill-api/mandrill');
 	var mandrill_client = new mandrill.Mandrill('I_zJ7Wc4xJwYqRjx_REiZg');
 	var template_name = "sign-up-confirmation-for-doresol-1";
 	var template_content = [{
 		"name": "sign-up-confirmation-for-doresol-1",
-		"content": "Signup Confirmation"
+		"content": "이메일을 등록해주셔서 감사합니다."
 	}];
 	var message = {
-		"html": "<p>도래솔에 관심 고객으로 등록되셨습니다.</p>",
-		"text": "도래솔에 관심고객으로 등록되셨습니다.",
-		"subject": "도래솔에 관심 고객으로 등록되셨습니다.",
+		//"html": "<p>이메일을 등록해주셔서 감사합니다.</p>",
+		//"text": "이메일을 등록해주셔서 감사합니다.",
+		"subject": "이메일을 등록해주셔서 감사합니다.",
 		"from_email": "doresol@hummingtop.co.kr",
-		"from_name": "Doresol",
+		"from_name": "도래솔(Doresol)",
 		"to": [{
 						"email": recipient_email,
 						"name":  recipient_email,
@@ -41,28 +42,30 @@ function send_mail_through_mandrill(recipient_email) {
 		"tracking_domain": null,
 		"signing_domain": null,
 		"return_path_domain": null,
-		"merge": true,
-		"global_merge_vars": [{
-						"name": "merge1",
-						"content": "merge1 content"
-				}],
-		"merge_vars": [{
-						"rcpt": recipient_email,
-						"vars": [{
-										"name": "merge2",
-										"content": "merge2 content"
-								}]
-				}],
 		"tags": [
 				"signup-confirmation"
 		],
 		"google_analytics_domains": [
-				"doresol.net"
+				"doresol.net",
+				"doresol.co.kr"
 		],
-		"google_analytics_campaign": "doresol@hummingtop.co.kr",
+		"google_analytics_campaign": "youngmin@hummingtop.co.kr",
 		"metadata": {
-				"website": "www.doresol.net"
+				"website": "www.doresol.net",
+				"current_year": currentTime.getFullYear(),
+				"current_month_day": currentTime.toDateString().substr(4,6),
+				"company": "hummingtop",
+				"email_addr": "doresol@hummingtop.co.kr",
+				"description": "당신과 함께 하는 서비스"
 		},
+		"recipient_metadata": [
+				{
+				"rcpt": recipient_email,
+				"values": {
+					"user_id": recipient_email
+					}
+				}
+			],
 	};
 	var async = false;
 	var ip_pool = "Main Pool";
